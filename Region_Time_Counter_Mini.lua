@@ -1,8 +1,10 @@
--- Patch34
--- Region Time Counter Mini
--- Displays the total unique length of all regions (HH:MM:SS), with correct overlap handling.
---
--- https://github.com/patch-34
+-- @description Region Time Counter Mini
+-- @version 1.0.0
+-- @author Aleksei Vorobev / Patch34
+-- @link
+--   GitHub repository https://github.com/patch-34/region-time-counter-mini
+-- @about
+--   Shows the combined duration of all regions without double-counting overlaps.
 
 local proj = 0
 
